@@ -1,0 +1,16 @@
+footer{
+  height:5vh;
+  width: 100%;
+  background: $whiteColor;
+  z-index: 1;
+  ul{
+    height: 100%;
+    li a{
+      text-decoration: none;
+      color: rgba($blackColor, .5);
+      text-transform: uppercase;
+      transition: all 1s;
+      @include opacity();
+    }
+  }
+}

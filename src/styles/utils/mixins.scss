@@ -1,0 +1,6 @@
+@mixin opacity{
+  &:hover{
+    opacity: .4;
+    cursor:pointer;
+  }
+}

@@ -1,0 +1,42 @@
+nav.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: $heightBar_width;
+  background: $whiteColor;
+  z-index: 2;
+  img {
+    max-width: 120px;
+    display: inline-block;
+  }
+  ul a {
+    text-decoration: none;
+    color: rgba($blackColor, .7);
+    border-top: 1px solid rgba($blackColor, .3);
+    text-transform: uppercase;
+    transition: all 1s;
+    @include opacity();
+    span {
+      font-size: .7em;
+      color: rgba($blackColor, .3);
+    }
+  }
+  .search {
+    color: rgba($blackColor, .7);
+    i {
+      background: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      padding: .75rem .5rem;
+      border: .04em solid rgba($blackColor, .1);
+      //box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+  p{
+    font-size: .8em;
+    color: rgba($blackColor, .3);
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "fluxapp",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ec21fe3492bb04d9e29103c319556ed8",
+      "css": "search",
+      "code": 62733,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "77b3693facc3d803417105997b4ffe96",
+      "css": "facebook",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "4568bba1dba45522fc539c733c9b35e5",
+      "css": "twitter",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "d10920db2e79c997c5e783279291970c",
+      "css": "dot-3",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "a30a32d49f80bb534c062ae1743ef433",
+      "css": "down",
+      "code": 59395,
+      "src": "entypo"
+    }
+  ]
+}

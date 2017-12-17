@@ -1,0 +1,136 @@
+section.content-section {
+  margin-left: $heightBar_width;
+  h2.subtitle {
+    font-size: 1em;
+    color: white;
+    background: $secondaryColor;
+    box-shadow: 1.5em 1.5em 2em 0 rgba(0, 0, 0, 0.12);
+  }
+  h1.title {
+    color: white;
+    font: 400 4em/1.2em 'Realtime';
+    letter-spacing: .3em;
+    text-transform: uppercase;
+  }
+  a.author {
+    color: white;
+    text-decoration: none;
+    padding-bottom: .1em;
+    border-bottom: 1px solid white;
+    transition: all 1s;
+    @include opacity();
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      display: block;
+      height: 1px;
+      width: 3em;
+      background: white;
+      margin: 0 2em;
+    }
+  }
+  p.date {
+    color: white;
+    a.category {
+      color: white;
+      padding-bottom: .1em;
+      border-bottom: 1px solid white;
+      text-decoration: none;
+      transition: all 1s;
+      @include opacity();
+    }
+  }
+  .left {
+    .attention{
+      width: 5em;
+      top: 50%;
+      color:white;
+      opacity:.1;
+      margin: -5vh 0;
+      &:hover{
+        cursor: default;
+      }
+    }
+    .nextArticle {
+      bottom: 0;
+      color: white;
+      a.link {
+        display: block;
+        transition: all 1s;
+        width: 5em;
+        @include opacity();
+        i {
+          border-radius: 50%;
+          background: $secondaryColor;
+          color: white;
+          padding: 1.25rem 1rem;
+        }
+      }
+      p.pageNumber {
+        color: white;
+        font-size: .7em;
+        span {
+          height: 1em;
+          top: .2em;
+          width: .1em;
+          background: white;
+        }
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    h2.subtitle {
+      font-size: 2em;
+      &.code-wrap {
+        margin-top: .05em;
+      }
+    }
+    p.pageNumber {
+      color: white;
+      font-size: .7em;
+      span {
+        height: 1em;
+        top: .2em;
+        width: .1em;
+        background: white;
+      }
+    }
+    p.text {
+      color: white;
+      line-height: 2em;
+      &:first-letter {
+        float: left;
+        color: $secondaryColor;
+        font-size: 8em;
+        padding: .35em .25em .25em .25em;
+      }
+    }
+  }
+  .social-links {
+    top: 0;
+    right: 0;
+    a {
+      color: white;
+      transition: all 1s;
+      @include opacity();
+      &.share {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+    &_counts {
+      text-transform: uppercase;
+      color: white;
+      span {
+        top: 50%;
+        width: 2em;
+        height: .1em;
+        background: white;
+        margin: .3em .5em;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../node_modules/basscss/css/basscss.min.css";
+
+@import 'styles/utils/variables';
+@import 'styles/utils/mixins';
+@import 'styles/utils/fonts';
+
+@import 'styles/components/navigation';
+@import 'styles/components/content';
+@import 'styles/components/footer';
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, $primaryColor, $secondaryColor);
+  font-family: 'Realtime', Arial, sans-serif;
+}
