@@ -54,8 +54,6 @@
     "node-sass": "^4.7.2",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.1.2",
-    "pug": "^2.0.0-rc.4",
-    "pug-as-jsx-loader": "^1.0.35",
     "sass-loader": "^6.0.6"
   },
   "jest": {
@@ -86,7 +84,6 @@
       "web.js",
       "mjs",
       "js",
-      "pug",
       "json",
       "web.jsx",
       "jsx",
